@@ -1,0 +1,2203 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Added_string_not_sounded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Added_string_not_sounded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Box_with_wood_belly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Added_strings_cannot_be_sounded_directly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Added_strings_cannot_be_sounded_directly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Box_with_wood_belly"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">These are strings which sound by sympathetic vibration.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Added_strings_occasionally_sounded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Added_strings_occasionally_sounded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Box_with_wood_belly"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">These function mainly as sympathetic strings but can be, and occasionally
+are, sounded by the fingers (e.g., sitar and baryton) or the bow.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Angle_harps"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Board"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow_harps"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Lutes"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Lyres"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_bows"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pair"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sets"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stick"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trough"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Aeolian_instruments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Aeolian_instruments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sympathetic_instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Aerophones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Aerophones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#All_strings_playable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#All_strings_playable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Box_with_wood_belly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Amorphous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Amorphous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_lip_reed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Angle_harps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Angle_harps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bows"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Harps"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The angle between the string bearer and the surface of the belly is less than a right angle. Pillar harps 
+are included here.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Animal_horns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Animal_horns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Balance_pedal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Balance_pedal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Timpani"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">The pedal is held in any position by a balance-spring(e .g., the Ludwig
+system). There are a number of other mechanical systems, each of which
+would be a separate Species; these are the best known.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Solid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Baritone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Baritone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_posthorns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Basket -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Basket">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bass_Lute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bass_Lute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Basses"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Basses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Basses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Basshorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Basshorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Modified_materials"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The many varieties have not been listed; whether the ophibarytons, the ophimonocle&#39;ides 
+and all the other French patent instruments should be separate genera is a matter for further 
+debate. The Russian bassoon (to neither of which names it has any claim) seems sufficiently 
+distinct, but it may well be that it should come under the previous head also.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bassoon_Russe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bassoon_Russe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Modified_materials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bent_back_peg_box -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bent_back_peg_box">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Piriform_plan"/>
+        <rdfs:comment rdf:datatype="&xsd;language">A slight bending back, as on the guitar, is not a distinction; this counts as straight. What is intended 
+is the sharp angle of the lute. A double peg-box may be (at Genus level) both straight and bent 
+back; some lutes were theorboed in this fashion.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Biwa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Biwa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Solid_back"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Block -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Block">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Blown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Blown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Board -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Board">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Zithers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbed_with_keyboard"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbed_without_keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow_harps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow_harps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bows"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Harps"/>
+        <rdfs:comment rdf:datatype="&xsd;language">This covers the various harps still retaining bow characteristics of shape of flexibility. The string carrier may be curved and rigid, carrying more than one string, the plane of the strings rising perpendicularly 
+from the belly and the string termini one beyond the other along the surface of the belly (bow harps 
+and arched harps) or a number of flexible string bearers may be attached to the one resonator (pluriarcs); the two groups are distinguished at class level. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowed_wood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowed_wood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowl_with_skin_belly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowl_with_skin_belly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowl_with_wood_belly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowl_with_wood_belly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked"/>
+        <rdfs:comment rdf:datatype="&xsd;language">This may be built of staves, hollowed from a block or be a natural gourd. A curved body without sides vertical to the plane of the belly is essential. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bows -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bows">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chordophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Box_with_skin_belly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Box_with_skin_belly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Box_with_wood_belly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Box_with_wood_belly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked"/>
+        <rdfs:comment rdf:datatype="&xsd;language">A box may be built of slats or hollowed from a block. The sides must be approximately 
+vertical to the plane of the belly. The back may be of any material and need not be flat (i.e., guitarra 
+battente counts as box).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Buff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Buff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bull_Roarers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bull_Roarers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cello_picollo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cello_picollo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stradivari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Central_stave -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Central_stave">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bent_back_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chanot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chanot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violins"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chitarone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chitarone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Basses"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_course"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight_Neck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Choice_of_more_than_one_course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Choice_of_more_than_one_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucking_keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chordophones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chordophones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Circular_plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Circular_plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowl_with_wood_belly"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The full-face view of a lute seems a useful distinction. These lists are not meant to be exclusive 
+or exhaustive.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Clay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Clay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_pellet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cobza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cobza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Central_stave"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_tapper"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Coiled_Bark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Coiled_Bark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+        <rdfs:comment rdf:datatype="&xsd;language">There is no tube within the bark; the instrument normally only functions when freshly made. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Combination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Combination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Finger_hole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Compartmented -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Compartmented">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Concussion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Concussion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Struck"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Two, or occasionally more, equally sonorous objects, both or all of which sound on being struck 
+together. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Conical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Conical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_Reeds"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_lip_reed"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#On_a_tuba_with_finger_holes"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cornet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cornet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_posthorns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Covered_alphorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Covered_alphorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Split_Wood"/>
+        <rdfs:comment rdf:datatype="&xsd;language">This is a convenient term; there is no need for an alp to be involved. There is normally a definite difference between the two bore profiles cited. The uncovered alphorn is, in my experience, invariably 
+narrow; if wide ones are found, separate genera should be used. It is known that in at least one area 
+alphorns are made of metal, as substitute for the wooden variety. It is a matter for further discus- 
+sion whether metal substitutes for other materials (and vice versa) should be included with their originals, or whether they should be divided by material. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cow_horn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cow_horn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Unmodified_natural_materials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Crook_Neck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Crook_Neck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cylindrical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cylindrical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_Reeds"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_lip_reed"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#On_a_tuba_with_finger_holes"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_reeds"/>
+        <rdfs:comment rdf:datatype="&xsd;language">It is the acoustical behavior, rather than the physical shape, which decides the category, though 
+the one may be deduced from the other; a stepped cylinder is effectively conical and is so regarded. 
+A cylindrical tube overblows alternate harmonics; a conical tube overblows all harmonics. Some latitude must be allowed, since instruments are seldom perfectly in tune; a possible border is whether the instrument can be lipped or blown into tune. With the longer instruments, the fundamental is frequently out of tune and the upper harmonics should be used as diagnostics. In a number of instruments, the bore is so slightly conical or is so irregular that intervals of ninths, tenths and elevenths are obtained 
+between fundamental and first partial (e.g., the didjeridu); this is what is meant by amorphous. Experience shows that there is seldom any argument as to which group any instrument falls into. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_Reeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_Reeds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Reeds"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Two flexible lamellae strike periodically against each other; the air passes between them. 
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_bass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_bass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#All_strings_playable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_peg_box"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_head -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_head">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Membranophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_lip_reed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_lip_reed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Reeds"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The lips function as though they were reeds. It has been suggested that one lip and the mouthpiece may function as single reeds; normally, however, the lips function as double reeds; some research is necessary here</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_peg_box -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_peg_box">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Piriform_plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_pitch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_pitch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trombe"/>
+        <rdfs:comment rdf:datatype="&xsd;language">A turn valve is used to select one pitch or another (e.g., C/Bb trumpets). The double horn is not included 
+because the transposing valve is placed and used as though it were another valve of normal type. The 
+criterion is that a normal valve is spring controlled and returns to its original position when released, whereas a turn valve remains in the intended position once it is set, and does not have to be held in position by the finger. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#End_blown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#End_blown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Metal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Mollusca"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Other_material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Euphonium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Euphonium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_bugles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#External -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#External">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Hollow"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Some hollow rattles (Sachs-Hornbostevle sselr attles)h ave pellets inside
+them; some have the pellets or other objects outside. The distinction
+between them seems more important to us than it did to Sachs and
+Hornbostel.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Fiedeln -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Fiedeln">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#All_strings_playable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Finger_hole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Finger_hole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cylindrical"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#End_blown"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Side_blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Flugelhorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Flugelhorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_bugles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Flutes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Flutes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Aerophones"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The air passes across the aperture in a tube or vessel, the rigid edge of which causes it to eddy periodically</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Folded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Folded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Split_Wood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Folk_violin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Folk_violin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#All_strings_playable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Free_reeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Free_reeds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Reeds"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Unlike other reeds, the free reed strikes neither against a solid body nor against a simulacrum of itself, but vibrates freely and periodically to and fro. When allied with a wind instrument, it is fitted in a frame so that the air is compelled to push it out of the way.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#French_horns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#French_horns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_Bell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Frontal_string_holder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Frontal_string_holder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Glass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Glass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_pellet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Gourd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Gourd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Finger_hole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Harps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Harps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chordophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Helicon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Helicon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_bugles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Hollow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Hollow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Organic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Shaken"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Horn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Horn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Finger_hole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Idiophones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Idiophones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Internal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Internal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Hollow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Inventionshorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Inventionshorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#French_horns"/>
+        <rdfs:comment rdf:datatype="&xsd;language">This is crooked in the tuning slide; all horns with fixed mouthpipes, as distinct from crooks, are included here. The natural french horns will be similarly distinguished</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Ivory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Ivory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Finger_hole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Kazoos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Kazoos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sympathetic_instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Kettle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Kettle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Membranophones"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The drum has a closed shell, the base of which may be pierced with a small air hole. A conical drum with an unusable membrane over the small end should be regarded as a kettle drum (e.g., Uganda). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Laute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Laute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Frontal_string_holder"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Lutes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Lutes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chordophones"/>
+        <rdfs:comment rdf:datatype="&xsd;language">There is a rigid neck; the resonator is integral and the plane of the strings runs parallel to the surface 
+of the belly and of the neck. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Lyres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Lyres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chordophones"/>
+        <rdfs:comment rdf:datatype="&xsd;language">There is a yoke; the resonator is integral or attached (or even non-existant, but this is rare). The strings run parallel to the surface of the belly, where there is one and lie in the same plane as the arms of the 
+yoke. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Mandoline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Mandoline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_course"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_frontal_string_holder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Manual_tram_handle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Manual_tram_handle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Timpani"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">A single handle, similar to that used to drive a tram, operates on all
+tension points simultaneouslyT. he Dresdenm echanismi s an example</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Mechanical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Mechanical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#End_blown"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbed_without_keyboard"/>
+        <rdfs:comment rdf:datatype="&xsd;language">With valves or slides. Wagner&#39;s holztrompete had a valve, and there may be some others. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Membranophones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Membranophones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Metal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Metal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Concussion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Conical"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Percussion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Midwinterhoorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Midwinterhoorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Split_Wood"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Once seen, this cannot be confused with the other instruments of this tribe. 
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Modified_materials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Modified_materials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Finger_hole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Mollusca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Mollusca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Conical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Monochord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Monochord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Speak for themselves. In some groups one must also distinguish between poly-idio- and poly-heterochord and between mono-idio- and mono-heterochord and, for the valiha if no other, polyidio-polyhetero-chord. 
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Internal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multiple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multiple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cylindrical"/>
+        <rdfs:comment rdf:datatype="&xsd;language">These seem peculiar to South America and are panpipes which are trumpeted rather than fluted. The Indian paired trumpets are conical and are either metal or mollusca, so belong elsewhere</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multiple_Bell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multiple_Bell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valves"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Sax, again, as well as others, produced a number of instruments of this type. Also included here are the instruments with one open and one closed bell, such as the echo cornet.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_Instruments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_Instruments"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_bows -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_bows">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bows"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Harps"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The string bearer is flexible. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Naqqara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Naqqara">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Screw_tension"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">In the Recueil des travaux de Congre&#39;sd e MusiqueA rabe there is a
+photographo f a pairo f naqqaraw ith full Dresdent ram-handlem echanism.
+The head diameters appear to be about six inches.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Narrow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Narrow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Split_Wood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Narrow_bore_tubas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Narrow_bore_tubas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_posthorns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Natural_horns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Natural_horns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Animal_horns"/>
+        <rdfs:comment rdf:datatype="&xsd;language">These are horns to which no work is done save removing the tip or piercing a hole in the side. External 
+decoration may be distinguished at a lower level. Both oliphant and shofar are extensively worked before 
+they are used, and so are distinguished at this level. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Cylindrical"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#End_blown"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Side_blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_adjustable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_adjustable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Angle_harps"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Board"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow_harps"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Lutes"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Lyres"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_bows"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pair"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sets"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stick"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trough"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_frontal_string_holder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_frontal_string_holder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_tapper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_tapper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bent_back_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Oliphant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Oliphant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Animal_horns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#On_a_tuba_with_finger_holes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#On_a_tuba_with_finger_holes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Free_reeds"/>
+        <rdfs:comment rdf:datatype="&xsd;language">A hole the covering or uncovering of which produces an alteration of pitch. Holes which need to be covered before the instrument will speak (as on the Asian mouth organ) are not to be regarded as finger holes, nor may the open end (e.g., of a holeless flute) be regarded as a fingerhole, even though a different pitch is produced by closing it; the same applies to the bell of a horn or conch. The thumb is included among the fingers and the fingers may be mechanically extended; the holes of an ophicle&#39;ide 
+are regarded as finger holes despite the fact that they are covered by keys; this will be a further criterion 
+below, under system, etc. 
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#One_note_per_reed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#One_note_per_reed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Free_reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#One_of_each -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#One_of_each">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pair"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Open -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Open">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Flutes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Open_conoid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Open_conoid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Shaken"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Bell shaped; deer hoofs, bird beaks, etc. Bells themselves have not yet
+been discussed; if clapper bells count as shaken, what of those where
+the clapper is moved and the bell is not?</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Organic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Organic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Concussion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Percussion"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Both animal and vegetable products.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Other_material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Other_material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Conical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Kettle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pandora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pandora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_course"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Frontal_string_holder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Percussion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Percussion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Struck"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Sonorous objects which are struck with a (permanently or temporarily) nonsonorous object; only the struck object sounds. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pipa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pipa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Solid_back"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Piriform_plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Piriform_plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowl_with_wood_belly"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Implies approximately pear-shaped; lutes and sitars, etc. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Solid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Idiophones"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polychord"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucking_keyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucking_keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_sounding_keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pochettes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Pochettes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#All_strings_playable"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Some forms of the dancing master&#39;s kit appear at this point. Those
+which do should be distinguished at Species level between viol shape,
+violin shape, guitar shape, etc. The rare pochette d&#39;amour will come
+under a different sub-Family.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polyarcal_plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polyarcal_plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowl_with_wood_belly"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Implies any number of curved sides; festooned is the normal English term; polyarcal is preferred 
+since the meaning may be calculated</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polychord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polychord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polygonal_plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polygonal_plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowl_with_wood_belly"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Implies any number of straight sides.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polyhedral_wood_belly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polyhedral_wood_belly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked"/>
+        <rdfs:comment rdf:datatype="&xsd;language">This may be built up of slats or hollowed from a block, but each slat must be more or less flat and either none may be vertical to the plane of the belly or there must be more than three sides plus belly (exs. are 
+the balalaika and the boat-shaped pochette). 
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Ratchet_pedal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Ratchet_pedal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Timpani"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">The pedal is held in any position by a ratchet (e.g., the Leedy system).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Reeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Reeds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Aerophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Ribbon_Reeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Ribbon_Reeds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Musical_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Solid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rotating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rotating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Timpani"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rozhok -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rozhok">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Modified_materials"/>
+        <rdfs:comment rdf:datatype="&xsd;language">This is included to represent all the folk instruments of this type (folk zink); each is usually sufficiently 
+distinct, both in origin and pattern, to be a separate Genus.&#39; For this reason, there is no need for ageographical division; this is implicit in the naming of the instrument. 
+   Equally, there is seldom any importance in the geographical origin of European art instruments; it is the type that matters. The fact that it is a German system clarinet is more important than that it was 
+made in Czechoslovakia.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbed_with_keyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbed_with_keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polychord"/>
+        <rdfs:comment rdf:datatype="&xsd;language">These are the nyckelharpa (bow) and vielle a roue (mechanical</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbed_without_keyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbed_without_keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polychord"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbed_with_keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbing_keyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Rubbing_keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_sounding_keyboard"/>
+        <rdfs:comment rdf:datatype="&xsd;language">An example is the Nurnberg geigenwerk. There is a clear distinction between a keyboard 
+which, whether by striking or plucking a string or drawing it to a wheel, causes it to 
+sound, and a keyboard which alters the length of a string which is already sounding 
+and so alters its pitch (e.g., the vielle a roue).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Savart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Savart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violins"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Saz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Saz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_frontal_string_holder"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Screw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Screw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Screw_tension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Screw_tension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Adjustable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Seed_pod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Seed_pod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Seed_pod_single -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Seed_pod_single">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Serpent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Serpent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Modified_materials"/>
+        <rdfs:comment rdf:datatype="&xsd;language">As suggested below, it may be necessary to make provision for the occasional serpent and basshorn 
+of metal, rather than grouping them with the key-bugle and the ophicle&#39;ide, from which they are quite 
+distinct.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Kettle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Shaken -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Shaken">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Idiophones"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Some rattles are percussive and some concussive; since the action of shaking is common to all, this seems a more useful distinction. Whether drums sounded in this way should be included here has not yet been</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Shofar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Shofar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Animal_horns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Side_blown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Side_blown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Metal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Mollusca"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Other_material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Silicate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Silicate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Concussion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Percussion"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Pottery and glass.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Kettle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_Bell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_Bell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_peg_box"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucking_keyboard"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_head -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_head">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Membranophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_keyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Choice_of_more_than_one_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_pellet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_pellet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Internal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_reeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_reeds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Reeds"/>
+        <rdfs:comment rdf:datatype="&xsd;language">One flexible lamella strikes periodically against a solid (i.e., non-flexible) block. The block is usually chambered and the air passes between the lamella and the edges of the block.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sitar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sitar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_frontal_string_holder"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Solid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Solid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Organic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Shaken"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Solid_back -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Solid_back">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bent_back_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Some_of_each -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Some_of_each">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sousaphone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sousaphone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_bugles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Spiked_bowl_skin_belly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Spiked_bowl_skin_belly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Spiked_bowl_wood_belly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Spiked_bowl_wood_belly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Spiked_tube_wood_belly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Spiked_tube_wood_belly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Plucked"/>
+        <rdfs:comment rdf:datatype="&xsd;language">A tube may be circular or polygonal in section, but the length should be greater than the radius; 
+the various sections should be distinguished at family level. The back of the tube is normally 
+open, or, at the most, partly occluded by a pierced septum; should it be closed, this also 
+should be distinguished. The banjo should probably be regarded as a circular section box rather 
+than as a short tube; hence the length/radius qualification. It may be desirable to add further 
+families with regard to finger-boards. In this connection, a neck on which the fingers rest while 
+stopping the strings sideways (e.g., with the nail) cannot be regarded as a It may also be necessary 
+to mention frets, where there are fingerboards, and to distinguish whether these are fixed (e.g., 
+guitar), tied (e.g., lute) or moveable (e.g., sitar). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Split_Wood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Split_Wood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+        <rdfs:comment rdf:datatype="&xsd;language">A piece of wood is split, gouged and reunited, or the same effect is achieved from two separate 
+pieces of wood. Also included are instruments built up of slats or staves.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stainer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stainer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violins"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stepped_Cone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stepped_Cone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+        <rdfs:comment rdf:datatype="&xsd;language">This is normally of bamboo, a series of internodes fitting each into the one below. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stepped_horns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stepped_horns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Animal_horns"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Two or more horns are inserted, each into the one above.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Zithers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Concussion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Percussion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stopped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stopped">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Flutes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stradivari -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stradivari">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violins"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">These are some of the main types of violin. Those expert in the field
+may well wish to introduce further species to distinguish between
+instruments which appear similar to the untutored eye; the latter may
+be content with a group which is more or less Strad and another which
+is more or less Stainer. It must be clearly understood that the maker is
+not important at this point, but merely the type and the pattern.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Split_Wood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight_Neck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight_Neck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_peg_box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight_peg_box -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Straight_peg_box">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Piriform_plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Strigilated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Strigilated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Idiophones"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Strigilation may be rapid or slow and these instruments are later divided accordingly. Rapid strigilation 
+is friction and includes such instruments as nail violins, glass harmonicas and the livika. Slow strigilation covers such instruments as ratchets, scraped gourds and wash-board</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Striking_keyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Striking_keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_sounding_keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#String_at_angle_to_spine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#String_at_angle_to_spine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_keyboard"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Two_keyboards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#String_parallel_to_spine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#String_parallel_to_spine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Three_keyboards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#String_vertical_to_spine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#String_vertical_to_spine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_keyboard"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Two_keyboards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Strings_at_angle_to_spine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Strings_at_angle_to_spine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Strings_parallel_to_the_spine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Strings_parallel_to_the_spine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_keyboard"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Two_keyboards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Strings_vertical_to_spine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Strings_vertical_to_spine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Struck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Struck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Idiophones"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sympathetic_instruments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Sympathetic_instruments"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tambura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tambura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Non_frontal_string_holder"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tenor_cor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tenor_cor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_posthorns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tenor_horn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tenor_horn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_posthorns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tenor_violin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tenor_violin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stradivari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Terminal_crook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Terminal_crook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#French_horns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Theorbo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Theorbo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Basses"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Crook_Neck"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Double_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Three_keyboards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Three_keyboards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Choice_of_more_than_one_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Timpani -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Timpani">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Screw_tension"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tin_can -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tin_can">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">When a tin is taken, filled with pellets and shaken, it would seem that it
+can be regarded as a separate material. Other re-used containers could
+be similarlyd istinguishedo, r could come undert his head, appropriately
+renamed.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trombe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trombe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_Bell"/>
+        <rdfs:comment rdf:datatype="&xsd;language">This includes both normal and large (trombone) trumpets. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trough -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trough">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Zithers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trumpet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trumpet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trombe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tuba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tuba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_bugles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tube -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Tube">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Hollow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Two_keyboards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Two_keyboards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Choice_of_more_than_one_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Uncovered_Alphorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Uncovered_Alphorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Split_Wood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Unmodified_natural_materials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Unmodified_natural_materials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Finger_hole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valve_trombone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valve_trombone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Trombe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_bugles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_bugles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_Bell"/>
+        <rdfs:comment rdf:datatype="&xsd;language">These are the products of fertile 19th century imaginations, spurred by the rewards of successful 
+patent piracy. The distinction is a matter of bore profile; we are as yet divided upon its validity. Montagu 
+thinks it workable, but Burton feels that, although there are many instruments clearly on one side or the other, there are too many doubtful cases in the middle for this to succeed. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_posthorns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valved_posthorns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_Bell"/>
+        <rdfs:comment rdf:datatype="&xsd;language">These are the products of fertile 19th century imaginations, spurred by the rewards of successful 
+patent piracy. The distinction is a matter of bore profile; we are as yet divided upon its validity. Montagu 
+thinks it workable, but Burton feels that, although there are many instruments clearly on one side or the other, there are too many doubtful cases in the middle for this to succeed. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Valves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#End_blown"/>
+        <rdfs:comment rdf:datatype="&xsd;language"></rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Vessel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Vessel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Flutes"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Hollow"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The body is a vessel rather than a tube; the only orifices are the embouchure and finger holes. The acoustical effect is that finger holes are effective according to their area, not to their position.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Viola -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Viola">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stradivari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Viola_pomposa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Viola_pomposa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stradivari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stradivari"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Even with the fifth string, there is no doubt but that a viola pomposa is
+a viola and a violoncello piccolo a &#39;cello (nor, pace Sachs, can the two
+be confused). Care should be taken to distinguish,o r to attempt to distinguish,
+b etween the violino piccolo and the three-quartesri ze violin.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violin_picollo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violin_picollo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stradivari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#All_strings_playable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violoncello -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Violoncello">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Stradivari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Viols -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Viols">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#All_strings_playable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Waisted_plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Waisted_plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Bowl_with_wood_belly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Wide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Wide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Split_Wood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_associate_resonator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_associate_resonator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polychord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_both_fixed_and_movable_bridges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_both_fixed_and_movable_bridges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_fingerboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_built_in_resonator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_built_in_resonator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polychord"/>
+        <rdfs:comment rdf:datatype="&xsd;language">Save where zither and resonator are found together, or where there is previous knowledge, it will not always be possible to distinguish between those with associated resonator and those without resonator. This is a sub-Class and, where there is doubt, the column may be ignored. 
+   The resonator is built-in when any other part of the instrument has to be removed, or when glued or otherwise fastened joints must be broken to dismount it. If it can be unscrewed or untied, it should 
+still be regarded as built-on. Associated means two separate pieces used together or loosely attached 
+to each other by a bit of string or amplifier wire, etc. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_damping_keyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_damping_keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_fixed_bridges"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_drones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_drones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Box_with_wood_belly"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">These are strings which are sounded continually, or more or less
+continually (e.g., sitar) but whose length is not varied (e.g., crwth and
+lira da braccio). They should not be confused with added basses for
+providingt he fundamentalo f a chord( e.g., theorbo and chitarrone).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_finger_board_under_all_strings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_finger_board_under_all_strings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_built_in_resonator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_finger_board_under_some_strings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_finger_board_under_some_strings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_built_in_resonator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_fixed_bridges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_fixed_bridges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_fingerboard"/>
+        <rdfs:comment rdf:datatype="&xsd;language">A bridge is a cut-off bar which fixes the length of the string both physically and acoustically. 
+A &#39;temporary bridge&#39; is one that may be applied to a string to give it a definite length in the above sense which was previosuly lacking. The clavichord is an example; the strings have an acoustic length only when in contact with the tangent, which is thus a temporary bridge. Moveable bridges will normally be in addition to the two fixed bridges which are acoustically necessary; an example is the koto. Instruments 
+with only moveable bridges are rare, but an example is the polyidiochord valiha, which is tuned by moving two wedges which also function as bridges. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_movable_bridges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_movable_bridges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_fingerboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_one_fixed_and_one_temporary_bridge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_one_fixed_and_one_temporary_bridge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_fingerboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_sounding_keyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_sounding_keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_fixed_bridges"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_fingerboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_fingerboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_built_in_resonator"/>
+        <rdfs:comment rdf:datatype="&xsd;language">As far as zithers are concerned, these are boards to which the string can be pressed to alter its effective length. There are normally, but not invariably, frets and further orders can be introduced, 
+if necessary, to show this and the type of frets. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_keyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#With_fixed_bridges"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_resonator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Without_resonator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Polychord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Wood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Wood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Finger_hole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Multi_pellet"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#No_finger_hole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Single_pellet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Zink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Zink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Modified_materials"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The word Cornett is best avoided to obviate confusion.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Zithers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Zithers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/3/Jeremy_Montagu.owl#Chordophones"/>
+        <rdfs:comment rdf:datatype="&xsd;language">The plane of the strings runs parallel to the surface of a stick, tube, trough (or where the surface 
+would be if it had one) or board. There is no separate neck. A raft zither is a permanent agglomeration 
+of stick/tube zithers. </rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1799) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,1189 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY InstrumentOntology "http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:InstrumentOntology="http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="&owl;topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Accordion -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Accordion">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Hand_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Acoustic_Instruments -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Acoustic_Instruments">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Electrophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Aeolian_Harp -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Aeolian_Harp">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Wind_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Aerophones -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Aerophones"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Animal_Horn_Shofar -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Animal_Horn_Shofar">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Without_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Bandoneon -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Bandoneon">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Hand_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Banjo -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Banjo">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Barrel_Organ -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Barrel_Organ">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mechanically_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Bass_Drum -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Bass_Drum">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Bassoon -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Bassoon">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Double_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Bayan -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Bayan">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Hand_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Beating_Reed_Instruments -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Beating_Reed_Instruments">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Free_Aerophones"/>
+        <rdfs:comment xml:lang="en">reeds strike against another object</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Bell -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Bell">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Blown -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Blown">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Indeterminate_Pitch"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Bongos -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Bongos">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Bowed -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Bowed">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Chordophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Brass_Instruments -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Brass_Instruments">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Pipe_Aerophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Bugle -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Bugle">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Without_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Bull-Roarer -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Bull-Roarer">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Wind_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Castanets -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Castanets">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Celesta -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Celesta">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Cello -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Cello">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Bowed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Chalumeau -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Chalumeau">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Chordophones -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Chordophones"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Clairon -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Clairon">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Clarinet -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Clarinet">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Concertina -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Concertina">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Hand_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Conch_shell -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Conch_shell">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Without_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Congas -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Congas">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#ContraBass -->
+
+    <owl:Class rdf:about="&InstrumentOntology;ContraBass">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Bowed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Cornet -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Cornet">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;With_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Cymbal -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Cymbal">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Determinate_Pitch -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Determinate_Pitch">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Membranophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Didjeridu -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Didjeridu">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Without_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Digital_Instruments -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Digital_Instruments">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Electronic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Double_Reed_Bagpipe -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Double_Reed_Bagpipe">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Double_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Double_Reeds -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Double_Reeds">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Beating_Reed_Instruments"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Reed_Pipe_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Edge_Instruments -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Edge_Instruments">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Pipe_Aerophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Electric_Bass -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Electric_Bass">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Acoustic_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Electric_Chord_Organ -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Electric_Chord_Organ">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mechanically_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Electric_Guitar -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Electric_Guitar">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Acoustic_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Electric_Organ -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Electric_Organ">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Electromagnetic_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Electric_Violin -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Electric_Violin">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Acoustic_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Electromagnetic_Instruments -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Electromagnetic_Instruments">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Electronic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Electronic -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Electronic">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Electrophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Electrophones -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Electrophones"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Euphonium -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Euphonium">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;With_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Fagotto -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Fagotto">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Fender_Rhodes_Electric_Piano -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Fender_Rhodes_Electric_Piano">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Acoustic_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Flute -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Flute">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;True_Flutes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Foot_Blown -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Foot_Blown">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Framed_Reed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Framed_Reed -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Framed_Reed">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Free_Reed_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Free_Aerophones -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Free_Aerophones">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Aerophones"/>
+        <rdfs:comment xml:lang="en">pitch not determined by pipe length</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Free_Reed_Instruments -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Free_Reed_Instruments">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Free_Aerophones"/>
+        <rdfs:comment xml:lang="en">reeds vibrate freely without striking anything</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#French_Horn -->
+
+    <owl:Class rdf:about="&InstrumentOntology;French_Horn">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;With_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Friction_Drum -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Friction_Drum">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Rubbed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Glass_Harmonica -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Glass_Harmonica">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Rubbed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Gong -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Gong">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Guitar -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Guitar">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Hammered_Dulcimer -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Hammered_Dulcimer">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Hand_Blown -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Hand_Blown">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Framed_Reed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Harmonica -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Harmonica">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mouth_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Harmonium -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Harmonium">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Foot_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Harp -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Harp">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Harpsichord -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Harpsichord">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Hautbois -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Hautbois">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Human_Voice -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Human_Voice">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Double_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Idiophones -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Idiophones">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Percussion_Instruments"/>
+        <rdfs:comment>body of instrument vibrates</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Indeterminate_Pitch -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Indeterminate_Pitch">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Membranophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Indian_Harmonium -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Indian_Harmonium">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Hand_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Jews_Harp -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Jews_Harp">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mouth_Blown"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Jingles -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Jingles">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Shaken"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Jug -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Jug">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;True_Flutes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Kalimba -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Kalimba">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Kazoo -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Kazoo">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Khaen -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Khaen">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mouth_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Krummhorn -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Krummhorn">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Leaf_Instrument -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Leaf_Instrument">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mouth_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#MIDI_Accordion -->
+
+    <owl:Class rdf:about="&InstrumentOntology;MIDI_Accordion">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Digital_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#MIDI_Drum_Machine -->
+
+    <owl:Class rdf:about="&InstrumentOntology;MIDI_Drum_Machine">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Digital_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#MIDI_Guitar -->
+
+    <owl:Class rdf:about="&InstrumentOntology;MIDI_Guitar">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Digital_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#MIDI_Keyboard -->
+
+    <owl:Class rdf:about="&InstrumentOntology;MIDI_Keyboard">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Digital_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#MIDI_Wind_Controller -->
+
+    <owl:Class rdf:about="&InstrumentOntology;MIDI_Wind_Controller">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Digital_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Marimba -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Marimba">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Mbira -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Mbira">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Mechanically_Blown -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Mechanically_Blown">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Framed_Reed"/>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Membranophones -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Membranophones">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Percussion_Instruments"/>
+        <rdfs:comment>membrane vibrates</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Mouth_Blown -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Mouth_Blown">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Framed_Reed"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Unframed_Reed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Music_Box -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Music_Box">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Oboe -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Oboe">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Double_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Ondes_Martenot -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Ondes_Martenot">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Electromagnetic_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Orchestrion -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Orchestrion">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mechanically_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Panpipes -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Panpipes">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;True_Flutes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Pedal_Concertina -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Pedal_Concertina">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Foot_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Pedal_Reed_Organ -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Pedal_Reed_Organ">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mechanically_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Percussion_Instruments -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Percussion_Instruments"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Piano -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Piano">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Piccolo -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Piccolo">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;True_Flutes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Pipe_Aerophones -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Pipe_Aerophones">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Aerophones"/>
+        <rdfs:comment xml:lang="en">pitch determined by pipe length</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Pitched -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Pitched">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Idiophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Plucked -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Plucked">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Chordophones"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Pitched"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Unframed_Reed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Prayer_Bowls -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Prayer_Bowls">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Rubbed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Rattle -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Rattle">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Shaken"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Recorder -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Recorder">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Whistle_Flutes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Reed_Organ -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Reed_Organ">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Foot_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Reed_Pipe_Instruments -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Reed_Pipe_Instruments">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Pipe_Aerophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Roto_Toms -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Roto_Toms">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Determinate_Pitch"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Rubbed -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Rubbed">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Indeterminate_Pitch"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Pitched"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Saxophone -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Saxophone">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Shaken -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Shaken">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Unpitched"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Sheng -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Sheng">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mouth_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Sho -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Sho">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Mouth_Blown"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Single_Reed_Bagpipe -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Single_Reed_Bagpipe">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Single_Reeds -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Single_Reeds">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Beating_Reed_Instruments"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Reed_Pipe_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Slit_Drum -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Slit_Drum">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Snare_Drum -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Snare_Drum">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Struck -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Struck">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Chordophones"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Determinate_Pitch"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Indeterminate_Pitch"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Pitched"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Unpitched"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Synthesizer -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Synthesizer">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Electromagnetic_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Tambourine -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Tambourine">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Theremin -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Theremin">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Electromagnetic_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Timpani -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Timpani">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Determinate_Pitch"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Triangle -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Triangle">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Trombone -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Trombone">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Without_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Trompette -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Trompette">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Single_Reeds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#True_Flutes -->
+
+    <owl:Class rdf:about="&InstrumentOntology;True_Flutes">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Edge_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Trumpet -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Trumpet">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;With_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Tuba -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Tuba">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;With_Valves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Ukelele -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Ukelele">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Plucked"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Unframed_Reed -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Unframed_Reed">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Free_Reed_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Unpitched -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Unpitched">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Idiophones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Viola -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Viola">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Bowed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Violin -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Violin">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Bowed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Whistle -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Whistle">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Whistle_Flutes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Whistle_Flutes -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Whistle_Flutes">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Edge_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Wind_Blown -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Wind_Blown">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Unframed_Reed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#With_Valves -->
+
+    <owl:Class rdf:about="&InstrumentOntology;With_Valves">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Brass_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Without_Valves -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Without_Valves">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Brass_Instruments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/InstrumentOntology.owl#Xylophone -->
+
+    <owl:Class rdf:about="&InstrumentOntology;Xylophone">
+        <rdfs:subClassOf rdf:resource="&InstrumentOntology;Struck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.20069) http://owlapi.sourceforge.net -->
+
